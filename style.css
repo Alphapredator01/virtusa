@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .container{
+    margin: 20px;
+  }
+  
+  .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-01{
+    background: #3abe97bd;
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .card-02{
+    background: #0df39bbd;
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .card-03{
+    background: #fa464fbd;
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  @media (max-width:900px){
+    .card-01{
+      flex: 100%;
+      max-width: 1000px;
+    }
+    .card-02{
+        flex: 100%;
+        max-width: 1000px;
+      }
+      .card-03{
+        flex: 100%;
+        max-width: 1000px;
+      }
+      .float-left{
+        float: left;
+      }
+      .float-right{
+        float: right;
+      }
+      .currency, .count{
+        font-size: 150%;
+        font-weight: 10000000;
+      }
+  
+
+  }
+                             
